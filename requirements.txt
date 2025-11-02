@@ -5,3 +5,9 @@ pydantic==2.8.2
 pydantic-settings==2.4.0
 SQLAlchemy==2.0.32
 psycopg2-binary==2.9.9
+
+langgraph==0.2.22
+langchain-core==0.2.39
+qdrant-client==1.9.1
+sentence-transformers==3.0.1
+requests==2.32.3

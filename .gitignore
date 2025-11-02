@@ -1,0 +1,47 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Arquivos de configuração/env
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+.idea/
+
+# Compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache de pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos temporários de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e outros
+*.log
+
+# Testes e relatórios
+htmlcov/
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database local
+*.sqlite3
+qdrant_storage
